@@ -1,5 +1,4 @@
 """Testes para o módulo hello."""
-import pytest
 from hello import calculator
 
 def test_add(monkeypatch, capsys):
