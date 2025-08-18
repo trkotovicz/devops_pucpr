@@ -1,6 +1,7 @@
-print('Hello, world!!');
+"""Módulo principal da calculadora simples."""
 
 def calculator():
+    """Executa a calculadora simples via input do usuário."""
     print("Simple Calculator")
     print("Select operation:")
     print("1. Add")
@@ -32,6 +33,7 @@ def calculator():
             print("Error: Division by zero")
         else:
             print(f"{num1} / {num2} = {num1 / num2}")
+
 
 if __name__ == "__main__":
     calculator()
