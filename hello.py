@@ -1,7 +1,5 @@
-"""Módulo principal da calculadora simples."""
-
 def calculator():
-    """Executa a calculadora simples via input do usuário."""
+    """Executa a calculadora via input do usuário."""
     print("Simple Calculator")
     print("Select operation:")
     print("1. Add")
