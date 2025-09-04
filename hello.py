@@ -1,3 +1,6 @@
+"""Simple calculator module."""
+
+
 def calculator():
     """Executa a calculadora via input do usuário."""
     print("Simple Calculator")
